@@ -17,7 +17,8 @@ class AplicativoListaContatos extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
         canvasColor: Colors.white,
       ),
-      supportedLocales: [const Locale('pt', 'BR')],
+      //
+      // supportedLocales: [const Locale('pt', 'BR')],
       home: PaginaCadastroContatos(),
     );
   }

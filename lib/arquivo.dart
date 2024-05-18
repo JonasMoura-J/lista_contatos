@@ -12,7 +12,7 @@ class Arquivo{
   Future<String> _obterNomeArquivo() async {
     if (_nomeArquivo.isEmpty){
       Directory diretorio = await getApplicationDocumentsDirectory();
-      _nomeArquivo = diretorio.path +'/'+DicionarioDados.nomeArquivo;
+      _nomeArquivo = '${diretorio.path}/${DicionarioDados.nomeArquivo}';
     }
     return  _nomeArquivo;
   }

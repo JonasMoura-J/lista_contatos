@@ -26,7 +26,7 @@ class _PaginaContatoState extends State<PaginaContato> {
   List<DropdownMenuItem> _itensTipoContato = [];
   TipoContato _tipoContato = TipoContato.pessoal;
   DateTime? _dataNascimento;
-  String _nomeArquivoFoto = '';
+  // String _nomeArquivoFoto = '';
   List<String> _emails = [];
 
   void _carregarTiposContatos() {
@@ -306,7 +306,7 @@ class _PaginaContatoState extends State<PaginaContato> {
 //Principais dados do contato------------------
             Container(
               width: MediaQuery.of(context).size.width - 70,
-              height: 265,
+              height: 270,
               color: Colors.white,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
